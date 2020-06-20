@@ -57,7 +57,7 @@ export default {
     fetchImages() {
       return axios({
         method: "get",
-        url: "http://api.giphy.com/v1/gifs/search",
+        url: "https://api.giphy.com/v1/gifs/search",
         params: {
           api_key: "TvHGP2bAbcXxa8Rc2Sfs9mHzweDa4LsG",
           q: this.tag,
